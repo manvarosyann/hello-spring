@@ -1,3 +1,54 @@
-.idea
-**/*.iml
-**/target
+# Compiled source #
+target/
+bin/
+out/
+
+# Logs #
+*.log
+
+# OS Files #
+.DS_Store
+Thumbs.db
+
+# IDEs #
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# Maven #
+.mvn/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Spring Boot #
+spring.log
+
+# Environment Files #
+.env
+.env.*
+
+# Others #
+*.class
+*.jar
+*.war
+*.ear
+
+# Database #
+*.h2.db
+*.mv.db
+*.db
+
+# Local settings #
+application-local.properties
+application-dev.properties
+application-test.properties
